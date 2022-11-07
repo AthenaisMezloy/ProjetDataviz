@@ -1,0 +1,457 @@
+
+/*
+.covidnotstudent rect {
+  fill: steelblue;
+}
+*/
+body{
+  margin:0;
+  padding:0;
+  width:100%;
+  height:9000px;
+  background: linear-gradient(130deg,rgba(58,15,112,1)0%, rgba(82,20,160,1)50%, rgba(3,198,210,1)100%);
+  font-family: 'Hubballi', cursive;
+
+}
+
+main{
+  height: 8000px;
+  background-image: url("Images/Group10.png");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  padding-top: 15em;
+
+}
+div {
+  display: flex;
+  justify-content: space-around;
+}
+.top {
+  align-items: center;
+  height: 141px;
+  font-family: 'Hubballi', cursive;
+  letter-spacing: 1.5px;
+  background-image: url("Images/Rectangle12.png");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  display: inline;
+}
+
+.categories{
+  width: 35vh ;
+  height: 30vh;
+  margin-top:0em;
+
+}
+
+section{
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ 
+}
+
+
+.chute{
+  width: 750px;
+  height: 12.5em;
+  margin-top: 10em;
+
+}
+
+
+h1{
+  font-family: 'Inder', sans-serif;
+  color: white;
+  font-size: 9.375em;
+  padding-left: 20px;
+}
+
+h2{
+  font-family: 'Inder', sans-serif;
+  color: white;
+  font-size: 2em;
+  padding: 20px;
+}
+.Mentions{
+  margin-top: 650px;
+  font-size: 1em;
+}
+h4{
+  font-family: 'Inder', sans-serif;
+  color: white;
+  font-size: 1em;
+  text-align: center;
+}
+p{
+  font-family: 'Inder', sans-serif;
+  color: white;
+  font-size: 2em;
+  padding: 30px;
+}
+.bloc{
+  display: flex;
+}
+.graph{
+  padding: 10px;
+}
+#info1{
+  height: 100vh;
+}
+.info2{
+  padding-top: 15em;
+  height: 100vh;
+}
+.info3{
+  padding-top: 15em;
+  height: 100vh;
+}
+.info4{
+  padding-top: 15em;
+  height: 100vh;
+}
+.info5{
+  padding-top: 15em;
+  height: 100vh;
+}
+.info6{
+  padding-top: 15em;
+  height: 100vh;
+}
+.info7{
+  padding-top: 15em;
+  height: 100vh;
+}
+
+.covidnotstudent .legend {
+  fill: black;
+  font: 14px sans-serif;
+  text-anchor: start;
+  font-size: 12px;
+}
+
+.covidnotstudent text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}
+
+.covidnotstudent .label {
+  fill: black;
+  font: 14px sans-serif;
+  text-anchor: end;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.covidstudent {
+  width: 960px;
+  height: 500px;
+  position: relative;
+  margin-left: 5em;
+}
+svg {
+  width: 100%;
+  height: 90%;
+  position: center;
+}
+
+text {
+  font: 1em sans-serif;
+
+}
+
+.text-info {
+  width: 50%;
+}
+
+.toolTip {
+  position: absolute;
+  display: none;
+  width: auto;
+  height: auto;
+  background: none repeat scroll 0 0 white;
+  border: 0 none;
+  border-radius: 8px 8px 8px 8px;
+  box-shadow: -3px 3px 15px #888888;
+  color: black;
+  font: 12px sans-serif;
+  padding: 5px;
+  text-align: center;
+}
+
+.legend {
+  font-size: 1em;
+}
+
+rect {
+  stroke-width: 2;
+}
+
+
+.axis text {
+  font: 1em sans-serif;
+}
+
+.axis path {
+  fill: none;
+  stroke: #000;
+}
+
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axis .tick line {
+  stroke-width: 1;
+  stroke: rgba(0, 0, 0, 0.2);
+}
+
+.axisHorizontal path {
+  fill: none;
+}
+
+.axisHorizontal line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.axisHorizontal .tick line {
+  stroke-width: 1;
+  stroke: rgba(0, 0, 0, 0.2);
+}
+
+.bar {
+  fill: rgb(0, 0, 0);
+  fill-opacity: .9;
+}
+
+.x.axis path {
+  display: none;
+}
+
+path { 
+  stroke: rgb(7, 8, 8);
+	stroke-width: 2;
+	fill: none;
+}
+
+.axis path,
+.axis line {
+	fill: none;
+	stroke: rgb(102, 65, 65);
+	stroke-width: 1;
+	shape-rendering: crispEdges;
+}
+
+
+.rate {
+    position:absolute;
+}
+
+circle {
+    cursor: pointer;
+    fill: rgb(180, 70, 180);
+}
+
+
+.Contact{
+  padding-top: 7em;
+  height: 100vh;
+}
+.pourc{
+  padding-left: 5em;
+}
+.num{
+  color: #5214A0;
+  font-size: 100px;
+  text-align: center;
+  margin: 0em;
+}
+.num2{
+  margin: 0em;
+  text-align: center;
+}
+.aide{
+  padding-bottom: 10em;
+}
+.btn {
+  height: 100px;
+  width: 100px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+.icone {
+  width: 50px;
+}
+.Vector {
+
+  position: absolute;
+left: 50%;
+bottom: 35px;
+display: block;
+  font-size: 1.25em;
+text-align: center;
+z-index: 100;
+text-decoration: none;
+text-shadow: 0;
+  width: 50px;
+  height: 50px;
+  border-bottom: 4px solid #fff;
+  border-right: 4px solid #fff;
+  z-index: 9;
+  left: 50%;
+  transform: translate(-50%, 0%) rotate(45deg);
+animation:         fade_move_down 4s ease-in-out infinite;
+  cursor: pointer;
+}   
+@keyframes fade_move_down {
+  0%   { transform:translate(-50%,-10px) rotate(45deg); opacity: 0;  }
+  50%  { opacity: 1;  }
+  100% { transform:translate(-50%,10px) rotate(45deg); opacity: 0; }
+}
+
+.test{
+  padding: 35px;
+}
+
+.volet-visible {
+  height: 300px;
+  text-align: center;
+  flex-direction: column;
+
+}
+.Mentions{
+  text-align: center;
+}
+.volet-invisible {
+  flex-direction: column;
+
+  overflow: hidden;
+  cursor: pointer;
+  border : 1px solid #5214A0;
+  border-radius: 10px;
+  box-sizing: content-box;
+  height: 50px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 970px) {
+
+  .chute{
+      width: 600px;
+      height: 12.5em;
+      margin-top: 10em;
+  
+  }
+  .logo{
+      margin-top: -35px;
+      width: 300px;
+  }
+  .categories{
+      width: 25vh ;
+      height: 25vh;
+      margin-top:2em;
+  
+  }    
+  .categories2{
+      width: 25vh ;
+      height: 25vh;
+      margin-top:2em;
+  
+  }
+}
+@media (max-width: 590px) {
+
+  .chute{
+      width: 400px;
+      height: 12.5em;
+      margin-top: 10em;
+  
+  }
+  .categories{
+      position: absolute;
+      width: 18vh ;
+      height: 18vh;
+      top:10em;
+      left: 13.6em;
+  }
+  .categories2{
+      position: absolute;
+      width: 25vh ;
+      height: 25vh;
+      top:2em;
+      left: 10em;
+  
+  }
+  .logo{
+      position: absolute;
+      top: 1.6em;
+      left: 4em;
+  }
+  .top{
+      padding: 2em;
+      flex-direction: column;
+  }
+  h1{
+      font-size: 6em;
+  }
+  .pourc{
+      padding-left: 20px;
+  }
+  .bloc{
+      flex-direction: column;
+  }
+  .taux{
+      padding-top: 20em;
+  }
+  .taux2{
+      padding-top: 50em;
+  }
+  .info3{
+      padding-top: 30em;
+  }
+  .info6{
+      padding-top: 70em;
+  }
+
+  .Vector{
+      bottom: 190px;
+  }
+.num{
+  color: rgba(3,198,210,1);
+}
+
+}
+
+
+
