@@ -1,0 +1,82 @@
+[
+  {
+    "date": "31-Dec-00",
+    "Female": 11.7
+  },
+  {
+    "date": "31-Dec-01",
+    "Female": 11.3
+  },
+  {
+    "date": "31-Dec-02",
+    "Female": 11.9
+  },
+  {
+    "date": "31-Dec-03",
+    "Female": 11.6
+  },
+  {
+    "date": "31-Dec-04",
+    "Female": 11.5
+  },
+  {
+    "date": "31-Dec-05",
+    "Female": 11.1
+  },
+  {
+    "date": "31-Dec-06",
+    "Female": 10.6
+  },
+  {
+    "date": "31-Dec-07",
+    "Female": 10.4
+  },
+  {
+    "date": "31-Dec-08",
+    "Female": 10.4
+  },
+  {
+    "date": "31-Dec-09",
+    "Female": 10.4
+  },
+  {
+    "date": "31-Dec-10",
+    "Female": 10.4
+  },
+  {
+    "date": "31-Dec-11",
+    "Female": 9.9
+  },
+  {
+    "date": "31-Dec-12",
+    "Female": 9.7
+  },
+  {
+    "date": "31-Dec-13",
+    "Female": 9.4
+  },
+  {
+    "date": "31-Dec-14",
+    "Female": 8.8
+  },
+  {
+    "date": "31-Dec-15",
+    "Female": 8.4
+  },
+  {
+    "date": "31-Dec-16",
+    "Female": 8
+  },
+  {
+    "date": "31-Dec-17",
+    "Female": 8
+  },
+  {
+    "date": "31-Dec-18",
+    "Female": 7.8
+  },
+  {
+    "date": "31-Dec-19",
+    "Female": 7.6
+  }
+]

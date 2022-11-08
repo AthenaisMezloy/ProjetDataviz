@@ -1,0 +1,48 @@
+[
+    {
+        "time":"1er confinement",
+        "type":"Symptômes dépressifs",
+        "rate": 36.3
+    },
+    {
+        "time":"1er confinement",
+        "type":"Anxiété",
+        "rate": 26.4
+    },
+    {
+        "time":"1er confinement",
+        "type":"Pensées suicidaires",
+        "rate": 11.9
+    },
+    {
+        "time":"Pas de confinement",
+        "type":"Symptômes dépressifs",
+        "rate": 27.1
+    },
+    {
+        "time":"Pas de confinement",
+        "type":"Anxiété",
+        "rate": 20.1
+    },
+    {
+        "time":"Pas de confinement",
+        "type":"Pensées suicidaires",
+        "rate": 11.8
+    },
+    {
+        "time":"2e confinement",
+        "type":"Symptômes dépressifs",
+        "rate": 53.6
+    },
+    {
+        "time":"2e confinement",
+        "type":"Anxiété",
+        "rate": 42.9
+    },
+    {
+        "time":"2e confinement",
+        "type":"Pensées suicidaires",
+        "rate": 17.6
+    }
+
+]
