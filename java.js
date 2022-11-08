@@ -241,14 +241,14 @@ var data = {
       .attr("x", function(d) { return x(d) - 3; })
       .attr("y", barHeight / 2)
       .attr("fill", "red")
-      .attr("dy", ".35em")
+      .attr("dy", "0.35em")
       .text(function(d) { return d; });
   
   bar.append("text")
       .attr("class", "rate")
       .attr("x", function(d) { return - 10; })
       .attr("y", groupHeight / 2)
-      .attr("dy", ".35em")
+      .attr("dy", "0.35em")
       .text(function(d,i) {
         if (i % data.series.length === 0)
           return data.rates[Math.floor(i/data.series.length)];
